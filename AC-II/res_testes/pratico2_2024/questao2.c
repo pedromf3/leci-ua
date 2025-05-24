@@ -1,8 +1,9 @@
 #include <detpic32.h>
 
+// Function to convert a decimal value to Binary-Coded Decimal (BCD)
 unsigned char toBcd(unsigned char value)
 {
-    return ((value / 10) << 4) + (value % 10);
+    return ((value / 10) << 4) + (value % 10); // Combine tens and units into BCD format
 }
 
 void send2displays(unsigned int value)
