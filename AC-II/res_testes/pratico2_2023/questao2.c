@@ -23,11 +23,11 @@ void send2displays(unsigned int value)
     static char flag = 1; // Display flag
 
     if (flag == 1){
-        PORTD = (PORTD & 0xFF9F) | 0x0040; // Enable display 1
-        PORTB = (PORTB & 0x80FF) | (disp7Scodes[value >> 4] << 8 ); // Send high nibble
+        LATD = (LATD & 0xFF9F) | 0x0040; // Enable display 1
+        LATB = (LATB & 0x80FF) | (disp7Scodes[value >> 4] << 8 ); // Send high nibble
     } else {
-        PORTD = (PORTD & 0xFF9F) | 0x0020; // Enable display 2   
-        PORTB = (PORTB & 0x80FF) | (disp7Scodes[value & 0x0F] << 8 ); // Send low nibble
+        LATD = (LATD & 0xFF9F) | 0x0020; // Enable display 2   
+        LATB = (LATB & 0x80FF) | (disp7Scodes[value & 0x0F] << 8 ); // Send low nibble
     }
     flag = !flag; // Toggle display flag
 }
