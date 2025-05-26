@@ -21,7 +21,7 @@ int main(){
     // Configure Interrupts for Timer 3
     IPC3bits.T3IP = 2; // Set Timer 3 interrupt priority to 2
     IFS0bits.T3IF = 0; // Reset Timer 3 interrupt flag
-    IECONbits.T3IE = 1; // Enable Timer 3 interrupts
+    IEC0bits.T3IE = 1; // Enable Timer 3 interrupts
 
     // Configure Output Compare (OC) for PWM (e.g. OC4)
     OC4CONbits.OCM = 6; // PWM mode without fault pin
@@ -53,10 +53,12 @@ int main(){
     U2MODEbits.ON = 1; // Enable UART2
 
     // Configure interrupts for UART (e.g. UART2)
-    IPC7bits.U2IP = 2; // Set UART2 interrupt priority to 2
+    IPC8bits.U2IP = 2; // Set UART2 interrupt priority to 2
     IFS1bits.U2RXIF = 0; // Reset UART2 RX interrupt flag
     IEC1bits.U2RXIE = 1; // Enable UART2 RX interrupt
 
     // Enable global interrupts
     EnableInterrupts();
+
+    return 0;
 }
