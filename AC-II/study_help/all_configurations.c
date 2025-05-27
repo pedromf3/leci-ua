@@ -25,7 +25,7 @@ int main(){
 
     // Configure Output Compare (OC) for PWM (e.g. OC4)
     OC4CONbits.OCM = 6; // PWM mode without fault pin
-    OC4CONbits.OCTSEL = 0; // Use Timer 3 as clock source
+    OC4CONbits.OCTSEL = 1; // Use Timer 3 as clock source (=0 for Timer 2)
     OC4CONbits.ON = 1; // Enable OC4
 
     // Configure ADC (e.g. AN4 as input)
