@@ -1,0 +1,20 @@
+Extra Exercises! 
+
+1. Escreva um programa que apresenta o valor de temperatura na gama 5ºC a 67ºC nos dois displays de sete segmentos, em decimal, consoante o valor da tensão na entrada AN4/RB4 da ADC (0 a 3.3V):
+	>> A ADC deve fazer duas conversões por cada amostra.
+	>> A frequência de amostragem deve ser de 4Hz, utilize o Core Timer.
+	>> O fim da conversão deve ser processado por polling.
+	>> O refrescamento dos displays deve ser feito por interrupção, usando o timer T2 e com uma frequência de 250Hz.
+
+
+2. Escreva um programa onde implemente a comunicação série entre placa DETPIC32 (UART2) e o PC:
+	>> Parâmetros de Comunicação: 9600, odd parity, 8 data bits, 2 stop bits.
+	>> Deve fazer eco de todos os caracteres recebidos.
+	>> Deve ser mostrado nos 4 LEDs ligados aos portos RE3 a RE0 o valor binário de um contador crescente módulo 10.
+	>> O valor do contador deve ser incrementado sempre que for recebido o carácter 'A' e incrementado duas vezes sempre que for recebido o carácter 'P'.
+	>> Sempre que o valor do contador passar do valor 5 deve ser transmitida a string "MAIS CINCO".
+
+---//---
+
+Exercícios baseados em questões de testes práticos
+by Pedro Ferreira
