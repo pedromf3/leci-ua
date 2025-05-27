@@ -53,7 +53,7 @@ int main(void){
 
     // Configure display
     TRISB = TRISB & 0x80FF; // RB8-RB14 as outputs
-    TRISD = TRISB & 0xFF9F; // RD5-RD6 as outputs
+    TRISD = TRISD & 0xFF9F; // RD5-RD6 as outputs
 
     //Interrupts configuration
     IPC3bits.T3IP = 2; // Set Timer 3 priority
