@@ -21,7 +21,7 @@ int main(void){
 
     //Configuration OC2 
     OC2CONbits.OCM = 6; // PWM mode without fault pin
-    OC2CONbits.OCTSEL = 0; // Use Timer 3 as clock source
+    OC2CONbits.OCTSEL = 1; // Use Timer 3 as clock source
     OC2CONbits.ON = 1; // Enable OC2
     int dc = 75;
     setDutyCycle(dc); // Set initial duty cycle to 75%
