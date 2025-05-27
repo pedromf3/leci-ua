@@ -14,7 +14,12 @@ Extra Exercises!
 	>> O valor do contador deve ser incrementado sempre que for recebido o carácter 'A' e incrementado duas vezes sempre que for recebido o carácter 'P'.
 	>> Sempre que o valor do contador passar do valor 5 deve ser transmitida a string "MAIS CINCO".
 
+3. Escreva um progrma que gere na saída do OC4 do PIC32 um sinal com frequência de 140Hz e "duty-cycle" dependente do estado so "switch" DS2 (ligado ao porto RB1):
+	>> Valor inicial de "duty-cycle" é de 40%
+	>> Com o RB1 a 1 o "duty-cycle" deve variar entre 10% e 90% a cada 2 segundos, usando o CoreTimer;
+	>> Com o RB1 a 0 o sinal gerado deve manter o último valor do "duty-cycle"
+
 ---//---
 
 Exercícios baseados em questões de testes práticos
-by Pedro Ferreira
+by Pedro Ferreira (27/5/2025)
