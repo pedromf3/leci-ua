@@ -1,0 +1,31 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font style for the page */
+}
+
+h1 {
+    font-size: 40px;
+}
+
+strong {
+    color: purple
+}
+
+h3 {
+    font-size: 28px;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 26px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 24px;
+    color: blue;
+}
+
+p {
+    font-size: 16px;
+}
