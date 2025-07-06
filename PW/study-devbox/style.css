@@ -1,15 +1,17 @@
 body {
     background-color: #000000; /* Light gray background */
     font-family: Arial, sans-serif; /* Font style for the page */
-    color: white /* Text color for the page */
+    color: white; /* Text color for the page */
+    margin: 20px 10px 20px 10px;
 }
 
 h1 {
     font-size: 40px; /* Font size for main headings */
+    text-align: center;
 }
 
 strong {
-    color: rgb(255, 204, 2) /* Highlighted text color */
+    color: rgb(255, 204, 2); /* Highlighted text color */
 }
 
 h3 {
@@ -36,8 +38,48 @@ p.cap {
                                 word in paragraphs with class 'cap' */
 }
 
+ul.menuh {
+    display: flex; /* Use flexbox layout for horizontal menu */
+    flex-direction: row; /* Arrange menu items in a row */
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    list-style: none;
+}
+
+ul.menuh li {
+    padding: 16px 16px;
+    border-right: 1px solid #bbb;
+    text-align: center;
+}
+
+ul.menuh li:last-child {
+    border-right: none; /* Remove right border from the last menu item */
+}
+
+ul.menuh li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul.menuh li a:hover {
+    background-color: green;
+}
+
+
 .textcolor { /* textcolor class */
     color: rgb(141, 223, 171);
+}
+
+#youtubediv{ /* Youtube div ID */
+    background-color: rgb(0, 42, 79);
+    padding-top: 20px; /* Extra padding at the top of the Youtube div */
+    padding-bottom: 20px; /* Extra padding at the bottom of the Youtube div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 table {
@@ -53,4 +95,18 @@ td, th {
 
 td, th {
     padding: 5px; /* Padding inside table cells */
+}
+
+#autumn{
+    background-color: #5e3d00;
+}
+
+h4 a { 
+    color: rgb(42, 136, 165); 
+    text-decoration: none;
+}
+
+h4 a:hover {
+    color: rgb(228, 255, 20);
+    font-style: italic;
 }
