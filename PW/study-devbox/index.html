@@ -12,13 +12,13 @@
 
 <body>
     <h1 align="center">Classical Music</h1> <!-- Main title of the page -->
-    <h2 style="color: blue;">Antonio Lucio Vivaldi</h2>
+    <h2 style="color: rgb(28, 138, 228);">Antonio Lucio Vivaldi</h2>
     <img src="media/Vivaldi.jpg" width="180" alt="Antonio Vivaldi" title="Vivaldi"> <!-- Image of Vivaldi -->
     <h3>The Four Seasons</h3>
 
     <hr /> <!-- Horizontal line to separate content -->
 
-    <h4 style="color: green;">Summer</h4> <!-- Style In-line-->
+    <h4 style="color: rgb(243, 100, 52);">Summer</h4> <!-- Style In-line-->
     <h6> Allegro non molto </h6>
     <p> <!-- paragraph -->
     Under a hard season, <strong>fired up by the sun </strong>  <br /> <!-- bold -->
@@ -32,41 +32,42 @@
     </p>
 
     <h6> Adagio e piano – Presto e forte </h6>
-    <p> The <em>fear of lightning</em> and <i>fierce thunder</i> <br /> <!-- emphasis/italic -->
+    <p class="textcolor"> The <em>fear of lightning</em> and <i>fierce thunder</i> <br /> <!-- emphasis/italic -->
     Robs his tired limbs of rest<sub>2</sub> <br /> <!-- subscript -->
     As gnats and flies buzz <s>furiously</s> around. <!-- strikethrough (semantic) -->
     </p>
 
     <h6> Presto </h6>
-    <p> Alas, <b> his fears were justified </b> <br /> <!-- bold-->
+    <p class="cap"> Alas, <b> his fears were justified </b> <br /> <!-- bold-->
     The <ins>Heavens thunder</ins> and roar and with hail  <br /> <!-- inserted text -->
     Cut the head off the wheat and damages the grain. <br />
-    </p>
+    </p> <br />
 
     <hr />
 
     <h4><a href="winter.html">Winter</a></h4> <!-- Link to another page (Winter section) -->
+    <br />
     <!-- Embedded YouTube video of Vivaldi's Four Seasons -->
+    <div align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPdk5GaIDjo" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 
         allowfullscreen>
-    </iframe>
-    </iframe>
+    </iframe> </div> <br />
 
     <hr />
 
     <br />
-    <table border="1" align="center" cellpadding="5" cellspacing="0"> <!-- Table -->
-        <tr bgcolor="yellow">  <!-- Header/First row  -->
+    <table align="center"> <!-- Table -->
+        <tr bgcolor="brown">  <!-- Header/First row  -->
             <th>Concert</th>
             <th>Movement I</th>
             <th>Movement II</th>
             <th colspan="2">Movement III</th> <!-- Last header spans two columns -->
         </tr>
         <tr> <!-- Spring Row/Second Row -->
-            <th bgcolor="cyan" rowspan="2">Spring</th> <!-- "Spring" row header spans two rows -->
+            <th bgcolor="purple" rowspan="2">Spring</th> <!-- "Spring" row header spans two rows -->
             <td>Allegro</td>
             <td>Largo e pianissimo sempre</td>
             <td colspan="2">Allegro pas<!-- "Spring" row header spans two rows -->torale</td>
@@ -77,7 +78,7 @@
             <td colspan="2">in E major</td>
         </tr>
         <tr> <!-- Autumn Row-->
-            <th bgcolor="cyan">Autumn</th> 
+            <th bgcolor="purple">Autumn</th> 
             <td>Allegro (in F major)</td>
             <td>Adagio molto (in D minor)</td>
             <td>Allegro</td>

@@ -1,31 +1,56 @@
 body {
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #000000; /* Light gray background */
     font-family: Arial, sans-serif; /* Font style for the page */
+    color: white /* Text color for the page */
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 40px; /* Font size for main headings */
 }
 
 strong {
-    color: purple
+    color: rgb(255, 204, 2) /* Highlighted text color */
 }
 
 h3 {
-    font-size: 28px;
-    font-style: italic;
+    font-size: 28px; 
+    font-style: italic; /* Italic style for subheadings */
 }
 
 h4 {
     font-size: 26px;
-    text-align: center;
+    text-align: center; /* Center align section headings */
 }
 
 h6 {
-    font-size: 24px;
-    color: blue;
+    font-size: 24px; 
+    color: rgb(24, 151, 92); /* Color for minor headings */
 }
 
 p {
     font-size: 16px;
+}
+
+p.cap {
+    text-transform: capitalize; /* Capitalize the first letter of each 
+                                word in paragraphs with class 'cap' */
+}
+
+.textcolor { /* textcolor class */
+    color: rgb(141, 223, 171);
+}
+
+table {
+    border: 1px solid azure; /* Table border style */
+    text-align: center; /* Center align table content */
+    border-spacing: 0px; /* No spacing between table cells */
+    border-color: azure; /* Table border color */
+}
+
+td, th {
+    border: 1px solid white; /* Cell border style */
+}
+
+td, th {
+    padding: 5px; /* Padding inside table cells */
 }
