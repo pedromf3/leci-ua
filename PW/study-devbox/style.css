@@ -89,3 +89,13 @@ td, th {
 td, th {
     padding: 5px; /* Padding inside table cells */
 }
+
+p a{
+    text-decoration: none;
+    color:rgb(255, 154, 66);
+}
+
+p a:hover {
+    color: rgb(67, 236, 252);
+    text-decoration: underline;
+}
