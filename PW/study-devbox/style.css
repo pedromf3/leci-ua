@@ -10,18 +10,9 @@ h1 {
     text-align: center;
 }
 
-strong {
-    color: rgb(255, 204, 2); /* Highlighted text color */
-}
-
 h3 {
-    font-size: 28px; 
+    font-size: 32px; 
     font-style: italic; /* Italic style for subheadings */
-}
-
-h4 {
-    font-size: 26px;
-    text-align: center; /* Center align section headings */
 }
 
 h6 {
@@ -70,7 +61,7 @@ ul.menuh li a:hover {
 
 
 .textcolor { /* textcolor class */
-    color: rgb(141, 223, 171);
+    color: rgb(255, 208, 0);
 }
 
 #youtubediv{ /* Youtube div ID */
@@ -87,6 +78,8 @@ table {
     text-align: center; /* Center align table content */
     border-spacing: 0px; /* No spacing between table cells */
     border-color: azure; /* Table border color */
+    width: 800px;
+    height: 400px;
 }
 
 td, th {
@@ -95,18 +88,4 @@ td, th {
 
 td, th {
     padding: 5px; /* Padding inside table cells */
-}
-
-#autumn{
-    background-color: #5e3d00;
-}
-
-h4 a { 
-    color: rgb(42, 136, 165); 
-    text-decoration: none;
-}
-
-h4 a:hover {
-    color: rgb(228, 255, 20);
-    font-style: italic;
 }

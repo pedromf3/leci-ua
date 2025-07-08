@@ -1,4 +1,3 @@
-This website applies ~~all~~ *almost all* knowledge acquired in Web Programming classes up to Lesson 5.  
-(It doesn't follow the exercises from the PW class scripts.)
+This website applies almost all the HTML and CSS concepts learned up to lesson 5 of PW.
 
-Made by Pedro Ferreira - 6/7/2025
+Made by Pedro Ferreira - 8/7/2025
