@@ -4,3 +4,4 @@ Licenciatura em Engenharia de Computadores e Informática - Computer and Informa
 ## 🎓 Courses
 - [Arquitetura de Computadores II (AC-II)](https://github.com/pedromf3/leci-ua/tree/main/AC-II)
 - [Competências Transferíveis II - Programação Web (PW)](https://github.com/pedromf3/leci-ua/tree/main/PW)
+- [Segurança Informática e nas Comunicações (SIC)](https://github.com/pedromf3/leci-ua/tree/main/SIC)
