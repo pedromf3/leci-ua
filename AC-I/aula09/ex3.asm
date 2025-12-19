@@ -46,7 +46,7 @@ endfor:		#}
 	jr	$ra	#}
 
 average:	# double average(double *array, int n){	
-#	move	$t2,	$a0	
+	move	$t2,	$a0	
 	addi	$t0,	$a1,	-1		# int i = n-1;
 	la	$t1,	k1
 	l.d	$f2,	0($t1)	# double sum = 0.0;
