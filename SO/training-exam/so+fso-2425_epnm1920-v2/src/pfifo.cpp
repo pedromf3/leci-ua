@@ -111,6 +111,8 @@ int retrieve_pfifo(PriorityFIFO* pfifo)
       }
    }
 
+   pthread_cond_signal(&pfifo->not_full); // ---   
+
    ensure ((result >= 0 && result <= MAX_ID) || is_closed_pfifo(pfifo), "OPEN FIFO with an invalid id");  // a false value indicates a program error
 
    pthread_mutex_unlock(&pfifo->access); // ---
