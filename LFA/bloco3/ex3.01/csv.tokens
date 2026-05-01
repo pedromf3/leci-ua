@@ -1,0 +1,6 @@
+TEXT=1
+SEP=2
+NEWLINE=3
+WS=4
+COMMENT=5
+','=2
